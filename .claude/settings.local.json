@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(tree:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit - Phase 0 complete\n\nProject structure and configuration files for secure Microsoft To Do MCP server.\n\nFeatures:\n- Security-first architecture with token storage abstraction\n- Support for keytar (Windows Credential Manager) and 1Password SDK\n- Read-only access to Microsoft To Do via Graph API\n- TypeScript with strict mode\n- Comprehensive testing structure\n\nPhase 0 Deliverables:\n- Azure app registration configured (\"toto\")\n- Project directory structure created\n- Configuration files (.gitignore, .env.example, tsconfig.json)\n- Package.json with build scripts\n- Documentation (README.md)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run build:*)",
+      "Bash(cat:*)",
+      "Bash(git remote:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -17,7 +17,6 @@ build/
 # Secrets - NEVER COMMIT THESE
 config/secrets.json
 azure-config.md
-dev/azure-config.md
 *.pem
 *.key
 
@@ -48,7 +47,3 @@ coverage/
 tmp/
 temp/
 *.tmp
-
-# Excluded directories
-microsoft-todo-mcp-server/
-New folder/
